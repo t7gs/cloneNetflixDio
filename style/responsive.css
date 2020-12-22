@@ -43,6 +43,14 @@
   .botao {
     font-size: 9px;
     width: 175px;
-    margin-bottom: 2px;
+
+  }
+  .filme-principal {
+     background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%),url('../img/capa2.jpg');;
+  }
+
+  .filme-principal .descricao{
+    margin-top: 50px;
+    margin-bottom: 10px;
   }
 }
