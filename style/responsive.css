@@ -1,18 +1,48 @@
-@media screen and (max-width:719px){
-    header .container{
-        display: flex;
-        flex-direction: column;
-    }
+@media screen and (max-width: 719px) {
+  header .container {
+    display: flex;
+    flex-direction: column;
+  }
 
-    .botao{
-        margin-top: 5px;
-        width: 300px;
-    }
+  .botao {
+    margin-top: 5px;
+    width: 300px;
+  }
 }
 
-@media screen and (min-width: 1000px){
-    .descricao {
-        width: 50%;
-    }
+@media screen and (min-width: 1000px) {
+  .descricao {
+    width: 50%;
+  }
+}
 
+@media screen and (max-width: 526px) {
+  .botao {
+    font-size: 11px;
+    width: 200px;
+    margin-bottom: 5px;
+  }
+}
+
+@media screen and (max-width: 433px) {
+  .botao {
+    font-size: 10px;
+    width: 150px;
+    margin-bottom: 5px;
+  }
+}
+
+@media screen and (max-width: 417px) {
+  .botao {
+    font-size: 9px;
+    width: 180px;
+    margin-bottom: 10px;
+  }
+}
+@media screen and (max-width: 390px) {
+  .botao {
+    font-size: 9px;
+    width: 175px;
+    margin-bottom: 2px;
+  }
 }
